@@ -31,12 +31,12 @@ public class RobotWorld extends World
         addObject(new Block(), 300, 150);
         addObject(new Scorepanel(), 50, 550);
         addObject(new Home(), 750, 550);
-        addObject(new Pizza(), Greenfoot.getRandomNumber(125), Greenfoot.getRandomNumber(800));
-        addObject(new Pizza(), Greenfoot.getRandomNumber(125), Greenfoot.getRandomNumber(800));
-        addObject(new Pizza(), Greenfoot.getRandomNumber(180), Greenfoot.getRandomNumber(800));
-        addObject(new Pizza(), Greenfoot.getRandomNumber(180), Greenfoot.getRandomNumber(800));
-        addObject(new Pizza(), Greenfoot.getRandomNumber(180), Greenfoot.getRandomNumber(800));
-        addObject(new Pizza(), Greenfoot.getRandomNumber(180), Greenfoot.getRandomNumber(800));
-        addObject(new Pizza(), Greenfoot.getRandomNumber(180), Greenfoot.getRandomNumber(800));
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(80));
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(80));
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(380)+220);
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(380)+220);
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(380)+220);
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(380)+220);
+        addObject(new Pizza(), Greenfoot.getRandomNumber(800), Greenfoot.getRandomNumber(380)+220);
     }
 }
