@@ -49,7 +49,7 @@ public class Robot extends Actor
     {
         if (isTouching(Block.class))
         {
-         setLocation950, 50)
+         setLocation(50, 50);
        }
     }
 }
